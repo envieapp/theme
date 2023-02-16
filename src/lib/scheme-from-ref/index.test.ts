@@ -1,0 +1,170 @@
+import { schemeFromRef } from '.';
+import { generateTheme } from '../generate-theme';
+
+const theme = generateTheme({
+  source: '#B69DF8',
+  success: '#a6f89d',
+  warning: '#f8ec9d',
+  error: '#f89d9d',
+  info: '#9dc1f8',
+});
+
+describe('schemeFromRef testing', () => {
+  test('light', () => {
+    const scheme = schemeFromRef('light', theme.ref);
+
+    expect(scheme).toBeTruthy();
+    const keys = Object.keys(scheme);
+    expect(keys).toContain('primary');
+    expect(keys).toContain('onPrimary');
+    expect(keys).toContain('primaryContainer');
+    expect(keys).toContain('onPrimaryContainer');
+    expect(keys).toContain('secondary');
+    expect(keys).toContain('onSecondary');
+    expect(keys).toContain('secondaryContainer');
+    expect(keys).toContain('onSecondaryContainer');
+    expect(keys).toContain('tertiary');
+    expect(keys).toContain('onTertiary');
+    expect(keys).toContain('tertiaryContainer');
+    expect(keys).toContain('onTertiaryContainer');
+    expect(keys).toContain('success');
+    expect(keys).toContain('onSuccess');
+    expect(keys).toContain('successContainer');
+    expect(keys).toContain('onSuccessContainer');
+    expect(keys).toContain('warning');
+    expect(keys).toContain('onWarning');
+    expect(keys).toContain('warningContainer');
+    expect(keys).toContain('onWarningContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('info');
+    expect(keys).toContain('onInfo');
+    expect(keys).toContain('infoContainer');
+    expect(keys).toContain('onInfoContainer');
+    expect(keys).toContain('background');
+    expect(keys).toContain('onBackground');
+    expect(keys).toContain('surface');
+    expect(keys).toContain('onSurface');
+    expect(keys).toContain('surfaceVariant');
+    expect(keys).toContain('onSurfaceVariant');
+    expect(keys).toContain('outline');
+    expect(keys).toContain('outlineVariant');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseOnSurface');
+    expect(keys).toContain('inversePrimary');
+    expect(keys).toContain('shadow');
+    expect(keys).toContain('scrim');
+  });
+  test('light', () => {
+    const scheme = schemeFromRef('light', theme.ref);
+
+    expect(scheme).toBeTruthy();
+    const keys = Object.keys(scheme);
+    expect(keys).toContain('primary');
+    expect(keys).toContain('onPrimary');
+    expect(keys).toContain('primaryContainer');
+    expect(keys).toContain('onPrimaryContainer');
+    expect(keys).toContain('secondary');
+    expect(keys).toContain('onSecondary');
+    expect(keys).toContain('secondaryContainer');
+    expect(keys).toContain('onSecondaryContainer');
+    expect(keys).toContain('tertiary');
+    expect(keys).toContain('onTertiary');
+    expect(keys).toContain('tertiaryContainer');
+    expect(keys).toContain('onTertiaryContainer');
+    expect(keys).toContain('success');
+    expect(keys).toContain('onSuccess');
+    expect(keys).toContain('successContainer');
+    expect(keys).toContain('onSuccessContainer');
+    expect(keys).toContain('warning');
+    expect(keys).toContain('onWarning');
+    expect(keys).toContain('warningContainer');
+    expect(keys).toContain('onWarningContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('info');
+    expect(keys).toContain('onInfo');
+    expect(keys).toContain('infoContainer');
+    expect(keys).toContain('onInfoContainer');
+    expect(keys).toContain('background');
+    expect(keys).toContain('onBackground');
+    expect(keys).toContain('surface');
+    expect(keys).toContain('onSurface');
+    expect(keys).toContain('surfaceVariant');
+    expect(keys).toContain('onSurfaceVariant');
+    expect(keys).toContain('outline');
+    expect(keys).toContain('outlineVariant');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseOnSurface');
+    expect(keys).toContain('inversePrimary');
+    expect(keys).toContain('shadow');
+    expect(keys).toContain('scrim');
+  });
+
+  test('dark', () => {
+    const scheme = schemeFromRef('dark', theme.ref);
+
+    expect(scheme).toBeTruthy();
+    const keys = Object.keys(scheme);
+    expect(keys).toContain('primary');
+    expect(keys).toContain('onPrimary');
+    expect(keys).toContain('primaryContainer');
+    expect(keys).toContain('onPrimaryContainer');
+    expect(keys).toContain('secondary');
+    expect(keys).toContain('onSecondary');
+    expect(keys).toContain('secondaryContainer');
+    expect(keys).toContain('onSecondaryContainer');
+    expect(keys).toContain('tertiary');
+    expect(keys).toContain('onTertiary');
+    expect(keys).toContain('tertiaryContainer');
+    expect(keys).toContain('onTertiaryContainer');
+    expect(keys).toContain('success');
+    expect(keys).toContain('onSuccess');
+    expect(keys).toContain('successContainer');
+    expect(keys).toContain('onSuccessContainer');
+    expect(keys).toContain('warning');
+    expect(keys).toContain('onWarning');
+    expect(keys).toContain('warningContainer');
+    expect(keys).toContain('onWarningContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('error');
+    expect(keys).toContain('onError');
+    expect(keys).toContain('errorContainer');
+    expect(keys).toContain('onErrorContainer');
+    expect(keys).toContain('info');
+    expect(keys).toContain('onInfo');
+    expect(keys).toContain('infoContainer');
+    expect(keys).toContain('onInfoContainer');
+    expect(keys).toContain('background');
+    expect(keys).toContain('onBackground');
+    expect(keys).toContain('surface');
+    expect(keys).toContain('onSurface');
+    expect(keys).toContain('surfaceVariant');
+    expect(keys).toContain('onSurfaceVariant');
+    expect(keys).toContain('outline');
+    expect(keys).toContain('outlineVariant');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseSurface');
+    expect(keys).toContain('inverseOnSurface');
+    expect(keys).toContain('inversePrimary');
+    expect(keys).toContain('shadow');
+    expect(keys).toContain('scrim');
+  });
+});

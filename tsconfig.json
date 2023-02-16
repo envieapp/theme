@@ -1,0 +1,26 @@
+{
+  "display": "theme",
+  "compilerOptions": {
+    "outDir": "dist",
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "target": "es6"
+  },
+  "include": ["src", "vite.config.ts",  "vitest.config.ts", ".eslintrc.js", "setupTests.ts"],
+  "exclude": ["node_modules", "dist", "coverage"],
+}
