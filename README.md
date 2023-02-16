@@ -11,7 +11,7 @@
 
 <!-- ![Coverage Badge](https://img.shields.io/endpoint?url=) -->
 ![Airbnb code style Badge](https://img.shields.io/badge/code%20style-Airbnb-%23ff5a5f?logo=airbnb)
-[![CI](https://github.com/envieapp/bem/actions/workflows/ci.yml/badge.svg)](https://github.com/envieapp/bem/actions/workflows/ci.yml)
+[![CI](https://github.com/envieapp/theme/actions/workflows/ci.yml/badge.svg)](https://github.com/envieapp/theme/actions/workflows/ci.yml)
 
 Envie theme using @emotion/react
 
