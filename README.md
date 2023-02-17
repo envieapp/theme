@@ -9,7 +9,7 @@
 
 # Envie theme
 
-<!-- ![Coverage Badge](https://img.shields.io/endpoint?url=) -->
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/BruhaBruh/96bdbce4d06b5692e89d42106c98eca9/raw/dd4be68fcf95c106c09d3287b2d04fc3496594a2/envie-theme.json)
 ![Airbnb code style Badge](https://img.shields.io/badge/code%20style-Airbnb-%23ff5a5f?logo=airbnb)
 [![CI](https://github.com/envieapp/theme/actions/workflows/ci.yml/badge.svg)](https://github.com/envieapp/theme/actions/workflows/ci.yml)
 
