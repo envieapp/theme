@@ -17,6 +17,7 @@
     "strict": true,
     "types": ["vitest/globals", "@testing-library/jest-dom"],
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "target": "es6"
