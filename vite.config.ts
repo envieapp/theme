@@ -18,5 +18,14 @@ export default defineConfig({
       formats: ['es', 'umd'],
       fileName: (format) => { return `index.${format}.js`; },
     },
+    rollupOptions: {
+      external: ['react', 'react-dom', '@emotion/react'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
+    },
   },
 });

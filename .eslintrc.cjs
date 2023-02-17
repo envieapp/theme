@@ -33,11 +33,11 @@ module.exports = {
   ],
   settings: {
     react: {
-      version: "18"
-    }
+      version: '18',
+    },
   },
   parserOptions: {
-    project: "./tsconfig.json",
+    project: './tsconfig.json',
     tsconfigRootDir: __dirname,
-  }
-}
+  },
+};

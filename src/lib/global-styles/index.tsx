@@ -14,6 +14,7 @@ export const GlobalStyles: React.FC<{ theme: EnvieTheme }> = ({ theme }) => {
 
         html: {
           colorScheme: theme.scheme,
+          fontSize: 16,
         },
 
         body: {

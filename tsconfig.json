@@ -21,6 +21,6 @@
     "module": "ESNext",
     "target": "es6"
   },
-  "include": ["src", "vite.config.ts",  "vitest.config.ts", ".eslintrc.js", "setupTests.ts"],
+  "include": ["src", "vite.config.ts",  "vitest.config.ts", ".eslintrc.cjs", "setupTests.ts"],
   "exclude": ["node_modules", "dist", "coverage"],
 }
