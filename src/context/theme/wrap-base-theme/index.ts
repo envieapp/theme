@@ -34,7 +34,7 @@ export const wrapBaseTheme = (baseTheme: BaseEnvieTheme, schemeName: SchemeName)
       }
       return 'Invalid surface level';
     },
-    elevation(level, color = envieTheme.sys.color.primary) {
+    elevation(level, color = envieTheme.sys.color.shadow) {
       const r = color.argb >> 16 & 255;
       const g = color.argb >> 8 & 255;
       const b = color.argb & 255;
