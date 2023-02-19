@@ -1,7 +1,7 @@
 import { ThemeSys } from '../../types';
 
 const defaultFontFamily: string[] = [
-  'Roboto',
+  'Inter',
   'system-ui',
   '-apple-system',
   'BlinkMacSystemfontFamily',
