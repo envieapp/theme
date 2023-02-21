@@ -25,8 +25,8 @@ jobs:
 
       - name: Create .npmrc
         run: |
-            echo "//npm.pkg.jetbrains.space/bruhabruh/p/envie/npm/:_authToken=${{ secrets.SPACE_TOKEN }}" >> ~/.npmrc
-            echo "@envie:registry=https://npm.pkg.jetbrains.space/bruhabruh/p/envie/npm/" >> ~/.npmrc
+            echo "//npm.pkg.jetbrains.space/envie/p/main/npm/:_authToken=${{ secrets.SPACE_TOKEN }}" >> ~/.npmrc
+            echo "@envie:registry=https://npm.pkg.jetbrains.space/envie/p/main/npm/" >> ~/.npmrc
 
       - name: Install dependencies
         run: npm ci
