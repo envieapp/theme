@@ -18,7 +18,7 @@
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "format": "npm run lint:eslint -- --fix",
     "test": "vitest run",
-    "test:watch": "npmnpm run test -- --watch",
+    "test:watch": "npm run test -- --watch",
     "coverage": "npm run test -- --coverage",
     "publish-package": "npm run build && npm run lint && npm run test && npm publish --registry https://npm.pkg.jetbrains.space/bruhabruh/p/envie/npm/"
   },
